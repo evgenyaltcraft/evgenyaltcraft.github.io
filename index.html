@@ -33,7 +33,19 @@
 
 <!-- Скрипт popup   -->   
 
-
+        <div class="ac-field">
+            <label class="ac-label" for="tel-field">
+              {{popup('copywriting' 'telField' 'text')}}
+            </label>
+            <input
+              type="tel"
+              class="ac-input"
+              id="tel-field"
+              name="{{popup('fields' 'tel-field' 'fieldData')}}"
+              placeholder="{{popup('copywriting' 'tel' 'text')}}"
+            />
+            <div class="ac-validation-msg" for="tel-field"></div>
+        </div>
       
 <!--         <script>
             
